@@ -1,7 +1,7 @@
 #ifndef DATAMANAGER_BUFFER_H
 #define DATAMANAGER_BUFFER_H
 
-#include "types_c.h"
+#include "types.h"
 
 class Buffer
 {
