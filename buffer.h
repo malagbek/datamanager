@@ -22,6 +22,8 @@ public:
     virtual int ElementBytes() const = 0;
     /// whether buffer properties can be changed or not
     virtual int IsReadOnly() const = 0;
+    /// whether memory is owned by buffer
+    virtual int OwnsMemory() const = 0;
     
     /// sets number of dimensions
     virtual void NumDimensions(int count) = 0;
