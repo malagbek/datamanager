@@ -20,6 +20,8 @@ public:
     virtual void * Data() const = 0;
     /// size of individual element in bytes 
     virtual int ElementBytes() const = 0;
+    /// whether buffer properties can be changed or not
+    virtual int IsReadOnly() const = 0;
     
     /// sets number of dimensions
     virtual void NumDimensions(int count) = 0;
